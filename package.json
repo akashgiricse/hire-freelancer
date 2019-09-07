@@ -1,0 +1,35 @@
+{
+  "name": "hire-freelancer",
+  "version": "1.0.0",
+  "description": "Hire freelancer online ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashgiricse/hire-freelancer.git"
+  },
+  "author": "akashgiricse@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akashgiricse/hire-freelancer/issues"
+  },
+  "homepage": "https://github.com/akashgiricse/hire-freelancer#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.13",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
+  }
+}
