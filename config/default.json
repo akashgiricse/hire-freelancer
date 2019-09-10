@@ -1,0 +1,6 @@
+{
+    "mongodbURI": "",
+    "jwtSecret": "",
+    "githubClient": "",
+    "githubSecret": ""
+}
